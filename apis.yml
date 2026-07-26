@@ -1,8 +1,27 @@
 aid: efreshli
 name: Efreshli
-description: Efreshli is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Efreshli is a Cairo, Egypt based online home-furnishing and interior-design commerce platform
+  founded in 2018 by Heba El Gabaly. The company lets consumers design and shop their space online,
+  pairing an e-commerce catalog of furniture, decor, lighting, rugs, bedding, and kitchen and dining
+  goods with AI-assisted room design tools, curated collections, a gift registry, an Efreshli Pro
+  membership, and a B2B / trade program that connects a network of vendors and brands. Efreshli is
+  backed by 500 Global, Algebra Ventures, Marakez, and angel investor Tarek Sakr. This profile is a
+  company record in the API Evangelist network; Efreshli operates a consumer e-commerce web
+  storefront and publishes no public developer API, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/efreshli/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://efreshli.com/separator-v1/images/og-image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- E-commerce
+- Furniture
+- Home Furnishing
+- Interior Design
+- Retail
+- AI
+- Egypt
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/efreshli-domain-security.yml
 - type: Website
   url: https://efreshli.com
+- type: Blog
+  url: https://blog.efreshli.com
+- type: Support
+  url: https://efreshli.com/contact
+- type: PrivacyPolicy
+  url: https://efreshli.com/privacy-policy
+- type: SignUp
+  url: https://efreshli.com/login
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
