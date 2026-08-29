@@ -10,6 +10,17 @@ description: >-
   company record in the API Evangelist network; Efreshli operates a consumer e-commerce web
   storefront and publishes no public developer API, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/efreshli/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
