@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/efreshli/integrations
+- https://n8n.io/integrations/efreshli/
+- https://composio.dev/toolkits/efreshli
+- https://monid.ai/tools/efreshli
+checked:
+- https://composio.dev/toolkits/efreshli
+- https://monid.ai/tools/efreshli
+- https://n8n.io/integrations/efreshli/
+- https://zapier.com/apps/efreshli/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
